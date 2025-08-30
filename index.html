@@ -43,7 +43,7 @@
     <section class="bg-white rounded-xl shadow-md min-h-[50px] mb-12">
       <!-- nav bar -->
       <div
-        class="right inter flex flex-col lg:flex-row gap-4 justify-between items-center py-6 px-16"
+        class="left inter flex flex-col lg:flex-row gap-4 justify-between items-center py-6 px-16"
       >
         <div class="flex justify-center items-center">
           <img class="h-[50px]" src="./assets/logo.png" alt=" " />
@@ -53,11 +53,11 @@
           </h1>
         </div>
 
-        <div class="left flex gap-3 lg:gap-5 justify-center items-center">
+        <div class="right flex gap-3 lg:gap-5 justify-center items-center">
           <div
             class="bg-[#41ff6b1a] rounded-full flex justify-center items-center px-5 py-3"
           >
-            <p class="font-bold text-2xl">0</p>
+            <p id="heart-cnt" class="font-bold text-2xl">0</p>
             <img class="h-[30px] ml-3" src="./assets/heart.png" alt="" />
           </div>
           <div
@@ -81,7 +81,7 @@
         class="bg-[linear-gradient(90deg,rgba(1,49,35,1),rgba(0,103,71,1)50%,rgba(1,50,35,1)100%)] w-full px-15 py-3 text-white text-center"
       >
         <img class="h-[92px] mx-auto" src="./assets/logo-dark.png" alt="" />
-        <h1 class="font-bold text-4xl my-3">Emergency Service Directory</h1>
+        <h1 class="font-semibold text-4xl my-3">জরুরি সেবা ডিরেক্টরি</h1>
         <p class="font-semibold text-xl">
           Government Emergency Services at Your Fingertip – A Project by
           Government of the People’s Republic of Bangladesh
@@ -89,13 +89,14 @@
       </div>
     </section>
 
+
     <!-- lower section -->
     <section class="pb-20 lg:px-15 px-4">
 
       <div class="flex lg:flex-row flex-col lg:gap-8 gap-7">
 
         <!-- left side -->
-        <div class="cart-container grid lg:grid-cols-3 grid-rows-1 lg:w-3/4 gap-7">
+        <div id="left-lower" class="cart-container grid lg:grid-cols-3 grid-rows-1 lg:w-3/4 gap-7">
         
         <!-- cart-1 -->
           <div class="cart bg-white rounded-xl shadow-md min-h-[10px] p-8"> 
@@ -104,20 +105,21 @@
                 <div class="bg-[#FFE3E2] p-4 rounded-3xl">
                   <img class="h-8" src="./assets/emergency.png" alt="" />
                 </div>
-                <button class="cursor-pointer "><i class="fa-regular fa-heart fa-xl"></i></button>
+     <!-- heart -->
+                <button id=" " class="cursor-pointer "><i class="fa-regular fa-heart fa-xl"></i></button>
               </div>
             </div>
 
             <div class="  ">
               <div class="my-4">
-                <h1 class="text-2xl font-bold">National Emergency Number</h1>
+                <h1 class="text-2xl font-bold">জাতীয় জরুরি সেবা</h1>
                 <p class="text-[#5c5c5c] my-1 text-lg">National Emergency</p>
               </div>
               <div class="my-4">
                 <h1 class="text-3xl font-bold mt-4 mb-2">999</h1>
                 <span
-                  class="text-[#5c5c5c] bg-[#f2f2f2] rounded-full py-[6px] px-4"
-                  >All</span
+                  class="text-[#5c5c5c] bg-[#f2f2f2] rounded-full py-[6px] px-[14PX]"
+                  >সার্বজনীন</span
                 >
               </div>
 
@@ -146,20 +148,21 @@
                 <div class="bg-[#DFEFFF] p-4 rounded-3xl">
                   <img class="h-8" src="./assets/police.png" alt="" />
                 </div>
+     <!-- heart -->
                 <button class="cursor-pointer "><i class="fa-regular fa-heart fa-xl"></i></button>
               </div>
             </div>
 
             <div class="  ">
               <div class="my-4">
-                <h1 class="text-2xl font-bold">Police Helpline Number</h1>
+                <h1 class="text-2xl font-bold">পুলিশ</h1>
                 <p class="text-[#5c5c5c] my-1 text-lg">Police</p>
               </div>
               <div class="my-4">
                 <h1 class="text-3xl font-bold mt-4 mb-2">999</h1>
                 <span
-                  class="text-[#5c5c5c] bg-[#f2f2f2] rounded-full py-[6px] px-4"
-                  >Police</span
+                  class="text-[#5c5c5c] bg-[#f2f2f2] rounded-full py-[6px] px-[14PX]"
+                  >পুলিশ</span
                 >
               </div>
 
@@ -188,20 +191,21 @@
                 <div class="bg-[#FFE3E2] p-4 rounded-3xl">
                   <img class="h-8" src="./assets/fire-service.png" alt="" />
                 </div>
+     <!-- heart -->
                 <button class="cursor-pointer "><i class="fa-regular fa-heart fa-xl"></i></button>
               </div>
             </div>
 
             <div class="  ">
               <div class="my-4">
-                <h1 class="text-2xl font-bold">Fire Service Number</h1>
+                <h1 class="text-2xl font-bold">ফায়ার সার্ভিস</h1>
                 <p class="text-[#5c5c5c] my-1 text-lg">Fire Service</p>
               </div>
               <div class="my-4">
                 <h1 class="text-3xl font-bold mt-4 mb-2">999</h1>
                 <span
-                  class="text-[#5c5c5c] bg-[#f2f2f2] rounded-full py-[6px] px-4"
-                  >Fire</span
+                  class="text-[#5c5c5c] bg-[#f2f2f2] rounded-full py-[6px] px-[14PX]"
+                  >ফায়ার</span
                 >
               </div>
 
@@ -230,20 +234,21 @@
                 <div class="bg-[#FFE3E2] p-4 rounded-3xl">
                   <img class="h-8" src="./assets/ambulance.png" alt="" />
                 </div>
+     <!-- heart -->
                 <button class="cursor-pointer "><i class="fa-regular fa-heart fa-xl"></i></button>
               </div>
             </div>
 
             <div class="  ">
               <div class="my-4">
-                <h1 class="text-2xl font-bold">Ambulance Service</h1>
+                <h1 class="text-2xl font-bold">অ্যাম্বুলেন্স</h1>
                 <p class="text-[#5c5c5c] my-1 text-lg">Ambulance</p>
               </div>
               <div class="my-4">
                 <h1 class="text-3xl font-bold mt-4 mb-2">1994-999999</h1>
                 <span
-                  class="text-[#5c5c5c] bg-[#f2f2f2] rounded-full py-[6px] px-4"
-                  >Health</span
+                  class="text-[#5c5c5c] bg-[#f2f2f2] rounded-full py-[6px] px-[14PX]"
+                  >স্বাস্থ্য</span
                 >
               </div>
 
@@ -272,20 +277,21 @@
                 <div class="bg-[#FFE3E2] p-4 rounded-3xl">
                   <img class="h-8" src="./assets/emergency.png" alt="" />
                 </div>
+     <!-- heart -->
                 <button class="cursor-pointer "><i class="fa-regular fa-heart fa-xl"></i></button>
               </div>
             </div>
 
             <div class="  ">
               <div class="my-4">
-                <h1 class="text-2xl font-bold">Women & Child Helpline</h1>
+                <h1 class="text-2xl font-bold">নারী ও শিশু সহায়তা</h1>
                 <p class="text-[#5c5c5c] my-1 text-lg">Women & Child Helpline</p>
               </div>
               <div class="my-4">
                 <h1 class="text-3xl font-bold mt-4 mb-2">109</h1>
                 <span
-                  class="text-[#5c5c5c] bg-[#f2f2f2] rounded-full py-[6px] px-4"
-                  >Help</span
+                  class="text-[#5c5c5c] bg-[#f2f2f2] rounded-full py-[6px] px-[14PX]"
+                  >সহায়তা</span
                 >
               </div>
 
@@ -314,20 +320,21 @@
                 <div class="bg-[#FFE3E2] p-4 rounded-3xl">
                   <img class="h-8" src="./assets/emergency.png" alt="" />
                 </div>
+     <!-- heart -->
                 <button class="cursor-pointer "><i class="fa-regular fa-heart fa-xl"></i></button>
               </div>
             </div>
 
             <div class="  ">
               <div class="my-4">
-                <h1 class="text-2xl font-bold">Anti-Corruption Helpline</h1>
+                <h1 class="text-2xl font-bold">দুদক</h1>
                 <p class="text-[#5c5c5c] my-1 text-lg">Anti-Corruption</p>
               </div>
               <div class="my-4">
                 <h1 class="text-3xl font-bold mt-4 mb-2">106</h1>
                 <span
-                  class="text-[#5c5c5c] bg-[#f2f2f2] rounded-full py-[6px] px-4"
-                  >Govt.</span
+                  class="text-[#5c5c5c] bg-[#f2f2f2] rounded-full py-[6px] px-[14PX]"
+                  >সরকারি</span
                 >
               </div>
 
@@ -356,20 +363,21 @@
                 <div class="bg-[#FFE3E2] p-4 rounded-3xl">
                   <img class="h-8" src="./assets/emergency.png" alt="" />
                 </div>
+     <!-- heart -->
                 <button class="cursor-pointer "><i class="fa-regular fa-heart fa-xl"></i></button>
               </div>
             </div>
 
             <div class="  ">
               <div class="my-4">
-                <h1 class="text-2xl font-bold">Electricity Helpline</h1>
+                <h1 class="text-2xl font-bold">বিদ্যুৎ বিভ্রাট</h1>
                 <p class="text-[#5c5c5c] my-1 text-lg">Electricity Outage</p>
               </div>
               <div class="my-4">
                 <h1 class="text-3xl font-bold mt-4 mb-2">16216</h1>
                 <span
-                  class="text-[#5c5c5c] bg-[#f2f2f2] rounded-full py-[6px] px-4"
-                  >Electricity</span
+                  class="text-[#5c5c5c] bg-[#f2f2f2] rounded-full py-[6px] px-[14PX]"
+                  >বিদ্যুৎ</span
                 >
               </div>
 
@@ -398,20 +406,21 @@
                 <div class="bg-[#FFE3E2] p-4 rounded-3xl">
                   <img class="h-8" src="./assets/emergency.png" alt="" />
                 </div>
+     <!-- heart -->
                 <button class="cursor-pointer "><i class="fa-regular fa-heart fa-xl"></i></button>
               </div>
             </div>
 
             <div class="  ">
               <div class="my-4">
-                <h1 class="text-2xl font-bold">Brac Helpline</h1>
+                <h1 class="text-2xl font-bold">ব্র্যাক</h1>
                 <p class="text-[#5c5c5c] my-1 text-lg">Brac</p>
               </div>
               <div class="my-4">
                 <h1 class="text-3xl font-bold mt-4 mb-2">16445</h1>
                 <span
-                  class="text-[#5c5c5c] bg-[#f2f2f2] rounded-full py-[6px] px-4"
-                  >NGO</span
+                  class="text-[#5c5c5c] bg-[#f2f2f2] rounded-full py-[6px] px-[14PX]"
+                  >এনজিও</span
                 >
               </div>
 
@@ -441,20 +450,21 @@
                 <div class="bg-[#FFE3E2] p-4 rounded-3xl">
                   <img class="h-8" src="./assets/emergency.png" alt="" />
                 </div>
+     <!-- heart -->
                 <button class="cursor-pointer "><i class="fa-regular fa-heart fa-xl"></i></button>
               </div>
             </div>
 
             <div class="  ">
               <div class="my-4">
-                <h1 class="text-2xl font-bold">Bangladesh Railway Helpline </h1>
+                <h1 class="text-2xl font-bold">বাংলাদেশ রেলওয়ে</h1>
                 <p class="text-[#5c5c5c] my-1 text-lg">Bangladesh Railway</p>
               </div>
               <div class="my-4">
                 <h1 class="text-3xl font-bold mt-4 mb-2">163</h1>
                 <span
-                  class="text-[#5c5c5c] bg-[#f2f2f2] rounded-full py-[6px] px-4"
-                  >Travel</span
+                  class="text-[#5c5c5c] bg-[#f2f2f2] rounded-full py-[6px] px-[14px]"
+                  >পরিবহন</span
                 >
               </div>
 
@@ -496,18 +506,20 @@
           </div>
 
           <!-- inner html -->
-          <div class="p-4 bg-[#f2f2f2] flex justify-between items-center gap-4">
+          <div class="p-4 bg-[#f2f2f2] flex justify-between items-center gap-4 rounded-lg">
                 <div class="">
-                  <h1 class="text-2xl font-semibold inter">National Emergency Number</h1>
+                  <h1 class="text-lg">জাতীয় জরুরি সেবা</h1>
                   <p class="text-[#5c5c5c] text-lg">999</p>
                 </div>
                 <div>
-                  <p class="text-lg w-[100px]">11:36:58 AM</p>
+                  <p class="text-lg">11:36:58 AM</p>
                 </div>
           </div>
 
         </div>
     </section>
+
+    <script src="./script.js"></script>
 
   </body>
 
