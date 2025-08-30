@@ -15,6 +15,8 @@
 - **Website name & logo** on the left as Figma
 - **Heart icon, coin count (default-100), and Copy Count** on the right as Figma
 
+
+
 ---
 
 ### 2. Hero Section
@@ -84,6 +86,9 @@ This Section will have layout as figma
 
 ---
 
+
+// ❌ আপনার পর্যাপ্ত কয়েন নেই! কল করতে কমপক্ষে ২০ কয়েন লাগবে।
+// 📞Calling National Emergency Service 999
 ### 5. Call Buttons
 
 - On clicking a card's **Call Button**, following actions will happen:
